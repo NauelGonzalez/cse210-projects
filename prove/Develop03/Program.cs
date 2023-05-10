@@ -4,15 +4,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Scripture s = new Scripture();
+        Scripture s = new Scripture(); //Create a new scripture using "random scripture" constructor. This cons will get random scripture from text file.
 
         string option = "";
 
         while (s.CountVisibleWords() >= 1 && option.ToUpper() != "QUIT")
         {
-            if (option.ToUpper() == "OPTIONS")
-            {GCNotificationStatus
+            if (option.ToUpper() == "OPTIONS")  //Added this for exceed requirements, this will allow user to get new random scripture or create custom one.
+            {
                 s = SetOptions(s);
+                option = "";
             }
             Console.Clear();
             s.Display();
@@ -20,12 +21,14 @@ class Program
             Console.WriteLine();
             Console.WriteLine("Press enter to keep playing, type 'options' to change game settings or type 'quit' to exit");
             option = Console.ReadLine();
-            s.HideWord();
+            s.HideWord();  //Hide method will hide only alphanumeric characters, leaving punctuations to make game more "friendly"
 
         }
 
 
-        Scripture SetOptions(Scripture s)
+
+        //Function to change game options
+        Scripture SetOptions(Scripture s) 
         {
             Console.Clear();
             Console.WriteLine("Choose one of the following options to configure game:");
