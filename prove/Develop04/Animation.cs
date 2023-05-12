@@ -47,6 +47,29 @@ class Animation
       
     }
 
+     public void ArrowsBackwards(int duration)
+    {
+
+        List<string> arrowParts = new List<string>();
+        for (int i = 0; i < duration; i++){
+            arrowParts.Add("\u25C1 ");
+        }
+
+
+        for (int j = arrowParts.Count()-1; j >= 0;j--)
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            foreach(string s in arrowParts){
+                Console.Write(s);
+            }
+            Thread.Sleep(1000);
+            ClearCurrentConsoleLine();
+            arrowParts[j] = "\u25C0 ";
+
+        }
+      
+    }
+
     public void Spinning(int duration)
     {
         List<string> c = new List<string>() { "|", "/", "-", "\\", "|", "-", "\\" };

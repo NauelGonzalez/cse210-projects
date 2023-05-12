@@ -23,7 +23,7 @@ class BreathActivity : Activity
         while (start < end){
                 Console.WriteLine();
                 Console.WriteLine("Breathe in...");
-                a.Arrows(4);
+                a.ArrowsBackwards(4);
                 Console.WriteLine();
                 Console.WriteLine("and now breathe out...");
                 a.Arrows(6);

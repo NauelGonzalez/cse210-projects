@@ -18,19 +18,27 @@ class Program
             Console.Write("Select a choice from the menu: ");
             choice = int.Parse(Console.ReadLine());
 
-            switch (choice){
+            switch (choice)
+            {
                 case 1:
                     BreathActivity ba = new BreathActivity();
                     ba.RunActivity();
                     break;
+                case 2:
+                    ReflectActivity ra = new ReflectActivity();
+                    ra.RunActivity();
+                    break;
+                case 3:
+                    ListActivity la = new ListActivity();
+                    la.RunActivity();
+                    break;
 
-                default:
-                    Console.ReadLine();
+                case 4:
                     break;
             }
 
 
-}
+        }
 
     }
 }
