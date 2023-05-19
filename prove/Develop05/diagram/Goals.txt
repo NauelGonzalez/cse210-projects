@@ -1,0 +1,6 @@
+Goal|Week 4 prove|Complete week 4 prove assignment|10|2023-05-18 14:27:49|2023-05-14 14:27:49|0|0
+Goal|week 5 prove|Complete week 5 prove assignment|10|2023-05-18 14:29:06|2023-05-20 14:29:06|0|0
+EternalGoal|Wake up early|before 6AM|5|2023-05-18 14:29:40|3000-01-01 00:00:00|0|0
+EternalGoal|exercise|for at least 30 min|20|2023-05-18 14:30:43|3000-01-01 00:00:00|0|0
+CheckListGoal|go in vacations|Take vacation during the year|10|2023-05-18 14:31:52|2024-05-17 14:31:37|0|0|3|100
+CheckListGoal|say thanks daily||5|2023-05-18 14:33:45|2023-05-19 14:33:31|0|0|3|20
