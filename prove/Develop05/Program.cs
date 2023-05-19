@@ -9,7 +9,7 @@ For exceeding the requirements:
     - Added a system of Due dates for the goals. If it is overdue it can't be completed anymore and gives negative points
     - Added colors based on due proximity for goals listing option
 
-    -Line 185 of Program.cs is commented so it will load a testfile of goals, you can switch it for custom files.
+    -**** testing FILE ******* A file with 6 testing goals was added on diagram folder in case it helps testing. Can switch to use it on line 185 of program.cs
 
     Also couldnt find any reason on why to have a "simple goals" class, since all the attributes and methods will be the same as "goal" base class. 
     Decided to keep the classes limited to 1 base class and 2 subclasses. (hope this is ok :) )
